@@ -1,6 +1,6 @@
 # PayBeerMarket-ERC20 🍻💰
 
-This project uses Solidity for smart contracts, React.js for the user interface and ether.js for communication between them. It is implemented on the Sepolia Network testnet, which provides flexibility and customization during development and testing.
+This project in Solidity, Reactjs and Etherjs allows users to pay for a beer and leave a message. When the contract is deployed, an ownership address is assigned. Users can make the payment by providing a name and a message, as long as the value sent is greater than zero. The Ether received is transferred to the contract owner and a new note is recorded that includes the name, message, timestamp and sender address. The contract also offers the functionality to get all memos recorded so far. Deployed on Sepolia testnet, it ensures reliable testing before deploying it on a main blockchain network. 
 
 
 ## Setting Up
